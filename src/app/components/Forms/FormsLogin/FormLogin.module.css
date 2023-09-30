@@ -24,17 +24,7 @@
 }
 
 
-.Options{
-    display: flex;
-    margin-top: -12%;
-    margin-bottom: 10%;
-    margin-right: 47%;
-}
 
-.Options h6{
-    font-size: 12px;
-    margin-left: 2rem;
-}
 
 .InputBox{
     position: relative;

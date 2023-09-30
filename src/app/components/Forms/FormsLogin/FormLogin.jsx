@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../../Logo/Logo'
 import styles from './FormLogin.module.css'
 import Button from '../../Button/Button';
-import Link from 'next/link';
+import Options from '../FormsHeader/FormsHeader'
 
 const FormLogin = () => {
   return (
@@ -12,10 +12,7 @@ const FormLogin = () => {
         </header>
         <div className={styles.wrapper}>
           <div className={styles.FormBox}>
-            <div className={styles.Options}>
-              <h6>Login</h6> {/* Criar redirecionamento */}
-              <h6>Registre-se</h6> {/* Criar redirecionamento */}
-            </div>
+            <Options/>
             <form>
               <div className={styles.InputBox}>
                 <input 
