@@ -6,7 +6,6 @@ import Link from 'next/link';
 
 const FormLogin = () => {
   return (
-
     <div className={styles.Body}>
         <header>
           <Logo/>
@@ -32,7 +31,7 @@ const FormLogin = () => {
                 />
                 <label>Senha</label>
               </div>
-              <Button/>
+              <Button>Entrar</Button>
             </form>
             <p className={styles.Forgot}>Esqueceu a senha?</p>
           </div>
