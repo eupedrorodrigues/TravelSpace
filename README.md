@@ -32,3 +32,4 @@ git clone https://github.com/eupedrorodrigues/TravelSpace.git
 ## :man_office_worker: Contribuidores do projeto
 
 * Pedro Ricardo Da Silva Rodrigues - [Linkedin](https://www.linkedin.com/in/pedro-rodrigues-50986a262/) | [GitHub](https://github.com/eupedrorodrigues)
+* Danilo Pereira Pessoa - [Linkedin](https://www.linkedin.com/in/danilopereirapessoa/) | [GitHub](https://github.com/IamDaniloP)
