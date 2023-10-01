@@ -1,6 +1,6 @@
 .WrapperOptions{
     display: flex;
-    width: 280px;
+    width: 17.5rem;
 }
 
 .Options{
@@ -17,7 +17,7 @@
 }
 
 .OpTwo{
-    font-size: 15px;
+    font-size: 0.938rem;
     opacity: 50%;
     cursor: pointer;
 }
