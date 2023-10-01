@@ -33,5 +33,6 @@ git clone https://github.com/eupedrorodrigues/TravelSpace.git
 
 * Pedro Ricardo Da Silva Rodrigues - [Linkedin](https://www.linkedin.com/in/pedro-rodrigues-50986a262/) | [GitHub](https://github.com/eupedrorodrigues)
 * Danilo Pereira Pessoa - [Linkedin](https://www.linkedin.com/in/danilopereirapessoa/) | [GitHub](https://github.com/IamDaniloP)
+* José William Guilherme Santos - [Linkedin](https://www.linkedin.com/in/guilherme-santos-57aa53243/) | [GitHub](https://github.com/Guilherme-Sant)
 * Ueslei Cristiano Nogueira da Silva - [Linkedin](https://www.linkedin.com/in/ueslei-cristiano-122aa2250/) | [GitHub](https://github.com/Cristiano-woody)
 * Vinícius Caliel Nunes Passos - [Linkedin](https://www.linkedin.com/in/caliel-passos-08495126a/) | [GitHub](https://github.com/vinicaliel)
