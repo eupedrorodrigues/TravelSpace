@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../../Logo/Logo';
 import styles  from './FormRegister.module.css';
 import Button from '../../Button/Button';
+import Options from '../FormsHeader/FormsHeader';
 
 const FormRegister = () => {
   return (
@@ -11,7 +12,7 @@ const FormRegister = () => {
         </header>
         <div className={styles.wrapper}>
           <div className={styles.FormBox}>
-            
+            <Options/>
             <form>
               <div className={styles.InputBox}>
                 <input 

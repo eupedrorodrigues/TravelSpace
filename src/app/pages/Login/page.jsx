@@ -1,5 +1,5 @@
-import Background from '@/app/components/Background/Background'
-import FormLogin from '@/app/components/Forms/FormsLogin/FormLogin'
+import Background from '../../../components/Background/Background';
+import FormLogin from '../../../components/Forms/FormsLogin/FormLogin';
 import React from 'react'
 
 const Login = () => {

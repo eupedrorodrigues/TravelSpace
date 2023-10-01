@@ -6,10 +6,8 @@ const FormsHeader = () => {
   return (
     <div className={styles.WrapperOptions}>
         <div className={styles.Options}>
-            <Link href='/pages/Login' legacyBehavior>
-                <a>Login</a>
-            </Link>
-            <Link  href=''>Registre-se</Link> 
+            <Link href='/pages/Login' className={styles.OpOne}>Login</Link>
+            <Link  href='/pages/Register' className={styles.OpTwo}>Registre-se</Link> 
         </div>
     </div>
   )

@@ -1,9 +1,6 @@
-import Login from './pages/Login/Login';
-import Register from './pages/Register/Register';
-
-
+import Login from "./pages/Login/page"
 export default function Home() {
-  return (
-   <Register/>
+  return(
+    <Login />
   )
 }
