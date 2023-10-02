@@ -32,21 +32,3 @@ rgba(255, 255, 255, 0.8);
     text-indent: 4ch;
     
 }
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-           /* altura do rodapé */
-  
-}
-.footer{
-    
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 90px;
-    background-color: 
-    rgba(13, 1, 38, 0.5);
-
-    
-}
