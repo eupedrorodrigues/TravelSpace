@@ -6,7 +6,7 @@ const Login = () => {
   return (
     <div>
         <FormLogin/>
-        <Background/>
+        <Background top="0" backgroundColor=" rgba(30, 5, 64, 0.60)"/>
     </div>
   )
 }

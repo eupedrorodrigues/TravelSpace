@@ -28,7 +28,7 @@ const FormLogin = () => {
                 />
                 <label>Senha</label>
               </div>
-              <Button>Entrar</Button>
+              <Button marginTop="1rem" width="100%" height="2.3rem">Entrar</Button>
             </form>
             <p className={styles.Forgot}>Esqueceu a senha?</p>
           </div>

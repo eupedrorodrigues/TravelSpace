@@ -66,7 +66,7 @@ const FormRegister = () => {
                     <label>Cidade</label>
                 </div>
               </div>
-              <Button>Registre-se</Button>
+              <Button marginTop="1rem" width="100%" height="2.3rem">Registre-se</Button>
             </form>
             <p className={styles.Forgot}>Esqueceu a senha?</p>
           </div>
