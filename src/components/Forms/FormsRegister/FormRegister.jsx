@@ -47,7 +47,7 @@ const FormRegister = () => {
                     type='text'
                     required
                     />
-                    <label>Profissão</label>
+                    <label>País</label>
                 </div>
               </div>
               <div className={styles.WrapperInputBox}>
@@ -56,7 +56,7 @@ const FormRegister = () => {
                         type='text'
                         required
                     />
-                    <label>País</label>
+                    <label>Estado</label>
                 </div>
                 <div className={styles.InputXR}>
                     <input 
