@@ -1,21 +1,16 @@
 .Background{
     position: absolute;
-    top: 0;
     left: 0;
     background: url('../../assets/sand.svg') no-repeat;
     background-size: cover;
-    width: 100%;
-    min-height: 140%;
-    z-index: -1;
+    width: 100vw;
+    min-height: 100vh;
+    z-index: -2;
 }
 
-.Background::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(30, 5, 64, 0.60);
-    z-index: 0; 
+.BackFilter{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
 }

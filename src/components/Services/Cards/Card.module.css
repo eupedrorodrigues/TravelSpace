@@ -1,0 +1,51 @@
+.cardBox0{
+    display: flex;
+    gap: 5vw;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.cardBox1{
+    background: url(../../../assets/mars.svg);
+}
+
+.cardBox2{
+    background: url(../../../assets/moon.svg);
+}
+
+.cardBox3{
+    background: url(../../../assets/galaxy.svg);
+}
+
+.cardBox1, .cardBox2, .cardBox3{
+    width: 20vw;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.text{
+    font-size: 5vh;
+}
+
+.filter, .fade{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.fade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.fade:hover{
+    opacity: 1;
+}
+
