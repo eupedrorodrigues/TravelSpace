@@ -36,3 +36,4 @@ git clone https://github.com/eupedrorodrigues/TravelSpace.git
 * José William Guilherme Santos - [Linkedin](https://www.linkedin.com/in/guilherme-santos-57aa53243/) | [GitHub](https://github.com/Guilherme-Sant)
 * Ueslei Cristiano Nogueira da Silva - [Linkedin](https://www.linkedin.com/in/ueslei-cristiano-122aa2250/) | [GitHub](https://github.com/Cristiano-woody)
 * Vinícius Caliel Nunes Passos - [Linkedin](https://www.linkedin.com/in/caliel-passos-08495126a/) | [GitHub](https://github.com/vinicaliel)
+* Nicolas Rafael Silva Lucena - [Linkedin](https://www.linkedin.com/in/nícolasrsl/) | [GitHub](https://github.com/Nick-rsl)
