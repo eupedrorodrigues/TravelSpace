@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .FormBox{
@@ -42,14 +43,14 @@
     width: 8.125rem;
     height: 3.125rem;
     border-bottom: 1px solid #fff;
-    margin: 27px 0;
+    margin:20px 0;
 }
 
 .InputXR{
     width: 8.75rem;
     height: 3.125rem;
     border-bottom: 1px solid #fff;
-    margin: 27px 0;
+    margin: 20px 0;
 }
 
 .InputXR label{

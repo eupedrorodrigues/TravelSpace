@@ -1,0 +1,37 @@
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    background: url('../../assets/TravelSpace.svg') no-repeat;
+    height: 8vh;
+    margin: 1.5rem;
+    width: 95%;
+}
+
+
+.links{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    gap: 30px;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.ContatoButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width : 130px;
+    height : 40px;
+    background-color: rgba(101, 97, 97, 0.6);
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+}
