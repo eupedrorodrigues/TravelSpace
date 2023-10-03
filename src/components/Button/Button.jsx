@@ -1,9 +1,8 @@
 'use client'
-import React from 'react'
-import styles from './Button.module.css'
-import { useState } from 'react'
+import { useState } from 'react';
+import styles from './Button.module.css';
 
-const Button = ({children, width, height, marginTop}) => {
+const Button = ({ onCLick, children, width, height, marginTop}) => {
 
   const [stylesresize, setStylesresize] = useState({
     width: width,
@@ -13,7 +12,7 @@ const Button = ({children, width, height, marginTop}) => {
 
   return (
     <>
-        <button style={stylesresize} className={styles.Button}>{children}</button>
+        <button onClick={onCLick} style={stylesresize} className={styles.Button}>{children}</button>
     </>
   )
 }
