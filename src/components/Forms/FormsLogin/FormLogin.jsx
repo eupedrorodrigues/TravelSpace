@@ -5,21 +5,17 @@ import Logo from '../../Logo/Logo';
 import styles from './FormLogin.module.css';
 import Button from '../../Button/Button';
 import Options from '../FormsHeader/FormsHeader';
+import { useForm } from 'react-hook-form'
 
 const FormLogin = () => {
 
   const router = useRouter();
-  const [email,setEmail] = useState('');
-  const [password, setPassword] = useState('');
 
   const handleLogin = (e) => {
-    if(!email || !password){
-      alert('Error: Preencha todos os campos');
-    }else{
-      router.push('/pages/Home')
-    }
+     router.push('/pages/Services')
   }
 
+  const {register, handleSubmit } = useForm()
 
   return (
     <div className={styles.Body}>
@@ -27,26 +23,24 @@ const FormLogin = () => {
         <div className={styles.wrapper}>
           <div className={styles.FormBox}>
             <Options/>
-            <form>
+            <form onSubmit={handleSubmit(handleLogin)}>
               <div className={styles.InputBox}>
                 <input 
-                  type='Email'
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  {...register("email")}
+                  type='email'
                   required
                 />
                 <label>Email</label>
               </div>
               <div className={styles.InputBox}>
                 <input 
+                  {...register("password")}
                   type='password'
-                  value={password}
-                  onChange={(e) => setPassword(e.target.value)}
                   required
                 />
                 <label>Senha</label>
               </div>
-              <Button onCLick={handleLogin} marginTop="1rem" width="100%" height="2.3rem">Entrar</Button>
+              <input className={styles.inputSubmit} type='submit' value='Entrar'/>
             </form>
             <p className={styles.Forgot}>Esqueceu a senha?</p>
           </div>

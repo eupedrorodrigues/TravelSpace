@@ -61,3 +61,12 @@
     cursor: pointer;
 }
 
+.inputSubmit {
+    background: #E65177;
+    border: none;
+    border-radius: 0.313rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    padding: 10px 133px;
+}
+
