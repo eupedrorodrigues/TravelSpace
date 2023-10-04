@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    color: white;
+    gap: 20px;
+}
+
+
+h1{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+p{
+    color: white;
+    font-weight: 300;
+}
+
+.SaibaMaisButton{
+    width : 160px;
+    height : 40px;
+    background-color: rgba(101, 97, 97, 0.6);
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 300;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+.WrapperOptions{
+    display: flex;
+    width: 17.5rem;
+}
+
+.Options{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 1.8rem;
+}
+
+.OpOne{
+    font-size: 15px;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.OpTwo{
+    font-size: 0.938rem;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.OpOne:hover,
+.OpTwo:hover {
+    opacity: 100%;
+}
+
+.OpOne:valid,
+.OpTwo:focus{
+    opacity: 100%;
+}

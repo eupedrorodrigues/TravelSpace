@@ -1,0 +1,16 @@
+.Background{
+    position: absolute;
+    left: 0;
+    background: url('../../assets/sand.svg') no-repeat;
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    z-index: -2;
+}
+
+.BackFilter{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
