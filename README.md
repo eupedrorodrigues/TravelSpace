@@ -23,7 +23,7 @@ git clone https://github.com/eupedrorodrigues/TravelSpace.git
 2. Navegue até o diretório do projeto no terminal.
 3. Execute o comando `npm install` para instalar todas as dependências do projeto
 4. Após a conclusão da instalação, execute o comando `npm run dev` para iniciar o servidor de desenvolvimento.
-5. O servidor será iniciado e você poderá acessar o aplicativo Coffee Delivery no seu navegador através do endereço fornecido no terminal.
+5. O servidor será iniciado e você poderá acessar o aplicativo Travel Space no seu navegador através do endereço fornecido no terminal.
 
 ## Tecnologias 
 
